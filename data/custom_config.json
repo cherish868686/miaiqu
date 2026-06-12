@@ -1,0 +1,673 @@
+{
+  "operator_sources": {
+    "bidcenter": {
+      "name": "中国采购与招标网",
+      "url": "https://chinabidding.com.cn/",
+      "enabled": true
+    },
+    "ggzy": {
+      "name": "全国公共资源交易平台",
+      "url": "https://www.ggzy.gov.cn",
+      "enabled": true
+    },
+    "rss_bid": {
+      "name": "RSS聚合招标信息",
+      "url": "https://www.chinabidding.mofcom.gov.cn",
+      "enabled": true
+    },
+    "chinatelecom_purchase": {
+      "name": "中国电信阳光采购网",
+      "url": "https://caigou.chinatelecom.com.cn/MSS-PORTAL/account/login.do",
+      "enabled": true
+    },
+    "cmcc_b2b": {
+      "name": "中国移动采购和招标网",
+      "url": "https://b2b.10086.cn/#/index",
+      "enabled": true
+    },
+    "unicom_supplier": {
+      "name": "中国联通供应商",
+      "url": "https://www.cuecp.cn/login/",
+      "enabled": true
+    },
+    "unicom_global": {
+      "name": "联通国际采购与招投标平台",
+      "url": "https://etender.chinaunicomglobal.com:8081/supp/index.html#/",
+      "enabled": true
+    },
+    "chinatower_ebid": {
+      "name": "中国铁塔电子采购平台",
+      "url": "https://ebid.chinatowercom.cn/zgtt/",
+      "enabled": true
+    },
+    "chinatower_eco": {
+      "name": "中国铁塔生态合作平台",
+      "url": "https://partner.chinatowercom.cn",
+      "enabled": true
+    },
+    "cmcc_gd": {
+      "name": "中国移动广东公司供应商门户",
+      "url": "https://www.telewiki.cn",
+      "enabled": true
+    },
+    "cmcc_gd_partner": {
+      "name": "广东移动合作伙伴服务门户",
+      "url": "https://221.179.44.125/zhengqi/dict/ptn/login",
+      "enabled": true
+    },
+    "cmcc_gd_eco": {
+      "name": "山东移动生态合作统一门户",
+      "url": "https://xe.sd.chinamobile.com/pms-portal-react/#/login",
+      "enabled": true
+    },
+    "cmcc_zj": {
+      "name": "浙江移动生态合作伙伴门户",
+      "url": "http://scm.zj.chinamobile.com/open/zqportal/#/portal",
+      "enabled": true
+    },
+    "cmcc_zj_tech": {
+      "name": "浙江移动数智科技供应商门户",
+      "url": "http://scm.zj.chinamobile.com/open/jcportal/#/door/home",
+      "enabled": true
+    },
+    "cmcc_js": {
+      "name": "江苏移动招募甄选平台",
+      "url": "https://www.jsdict.cn/#/login?user_type=2",
+      "enabled": true
+    },
+    "cmcc_sc": {
+      "name": "四川移动生态合作统一门户",
+      "url": "https://compass.scmcc.com.cn:18091/partner/index.html#/ptn/login",
+      "enabled": true
+    },
+    "cmcc_hn": {
+      "name": "中国移动湖南ICT生态合作伙伴管理平台",
+      "url": "https://partner.hncmict.com/ictp/index",
+      "enabled": true
+    },
+    "cmcc_hn_ict": {
+      "name": "湖南移动ICT生态合作伙伴管理平台",
+      "url": "https://partner.hncmict.com/ictp/login",
+      "enabled": true
+    },
+    "cmcc_henan": {
+      "name": "中国移动河南供应商协同平台",
+      "url": "http://10.92.81.26/vendorportal/mainPage.jsp",
+      "enabled": false
+    },
+    "cmcc_hebei": {
+      "name": "中国移动河北合作管理系统",
+      "url": "http://www.he.10086.cn/partner/#/sys/cms/loginPartner",
+      "enabled": true
+    },
+    "cmcc_yn": {
+      "name": "中国移动云南供应商协同门户",
+      "url": "https://scms.netvan.cn",
+      "enabled": true
+    },
+    "cmcc_ah": {
+      "name": "安徽移动供应商门户系统",
+      "url": "http://b2b.ah.chinamobile.com",
+      "enabled": true
+    },
+    "cmcc_cq": {
+      "name": "重庆移动政企DICT合作门户",
+      "url": "https://www.cqmc.com",
+      "enabled": true
+    },
+    "cmcc_nm": {
+      "name": "中国移动内蒙古供应商协同门户",
+      "url": "https://b2b.nm139.com:81/static/views/vendorLogin.html",
+      "enabled": true
+    },
+    "cmcc_nm_dict": {
+      "name": "内蒙古移动DICT合作门户",
+      "url": "https://dict.nm135.cn:81/",
+      "enabled": true
+    },
+    "cmcc_jl": {
+      "name": "吉林移动政企合作伙伴生态运营管理平台",
+      "url": "https://partner.10086-cname.cn/login",
+      "enabled": true
+    },
+    "cmcc_sx": {
+      "name": "陕西移动ICT项目管理平台",
+      "url": "https://cooperator.sxydzq.cn/cooperator/to_login.action",
+      "enabled": true
+    },
+    "cmcc_hlj": {
+      "name": "黑龙江移动DICT生态合作统一门户",
+      "url": "http://www.hl.10086.cn/pms-portal-react/#/login",
+      "enabled": true
+    },
+    "cmcc_jx": {
+      "name": "江西移动阳光生态合作平台",
+      "url": "https://jx.10086.cn/partner/console/partner/#/enterprise/enterpriseInfo",
+      "enabled": true
+    },
+    "cmcc_hb": {
+      "name": "中国移动湖北合作伙伴管理系统",
+      "url": "http://211.137.70.55/coop-partner-module/index.jsp",
+      "enabled": false
+    },
+    "cmcc_online": {
+      "name": "中国移动在线营销服务中心",
+      "url": "https://bfms.deskpro.cn:21001/pms-portal-react/#/register",
+      "enabled": true
+    },
+    "cmcc_bj": {
+      "name": "北京移动合作生态管理平台",
+      "url": "https://xywhz.bj.chinamobile.com/web/#/login",
+      "enabled": true
+    },
+    "cmcc_suzhou": {
+      "name": "中移(苏州)软件技术供应商协同门户",
+      "url": "https://scm.cmecloud.cn/pages/auth/login.html",
+      "enabled": true
+    },
+    "cmcc_integrate": {
+      "name": "中移集成合作伙伴招募与甄选系统",
+      "url": "https://117.132.185.62:8051/static/views/home/supplier.html",
+      "enabled": true
+    },
+    "cmcc_recruit": {
+      "name": "中移官网甄选招募平台",
+      "url": "http://www.shcmct.com",
+      "enabled": true
+    },
+    "migu_cnds": {
+      "name": "咪咕CNDS平台-服务商门户",
+      "url": "http://cnds.migu.cn/",
+      "enabled": true
+    },
+    "cmcc_aijia": {
+      "name": "移动爱家生态平台",
+      "url": "https://open.home.10086.cn/openhomePortal/pages/ecologicalEmpowerment/entrance/",
+      "enabled": true
+    },
+    "cmcc_terminal": {
+      "name": "一级终端营销管理系统",
+      "url": "https://device.open.10086.cn:8017/",
+      "enabled": true
+    },
+    "guizhou_mobile": {
+      "name": "贵州移动信息科技电子招投标平台",
+      "url": "http://36.137.157.155:50001/supplier/notice?city=818",
+      "enabled": true
+    },
+    "ct_eco": {
+      "name": "中国电信政企生态合作统一开放平台",
+      "url": "https://b.189.cn/cooperation#/home",
+      "enabled": true
+    },
+    "gpdi_bid": {
+      "name": "广东省电信规划设计院电子招投标平台",
+      "url": "https://bidding.gpdi.com/homepage/",
+      "enabled": true
+    },
+    "cmcc_tietong_js": {
+      "name": "九翊供应商平台(中移铁通江苏)",
+      "url": "http://183.134.62.137:7774/#/supplier-guide/purchase-business",
+      "enabled": true
+    },
+    "chinaccsscm": {
+      "name": "中通服供应链管理电子招标系统(链捷招)",
+      "url": "https://zb.chinaccsscm.cn/",
+      "enabled": true
+    },
+    "ccgp_gd": {
+      "name": "广东省政府采购网",
+      "url": "https://gdgpo.czt.gd.gov.cn/",
+      "enabled": true
+    },
+    "ccgp_bj": {
+      "name": "北京市政府采购电子交易平台",
+      "url": "http://zbcg-bjzc.zhongcy.com/bjczj-portal-site/index.html#/home",
+      "enabled": true
+    },
+    "ccgp_bj_jinghua": {
+      "name": "北京市政府采购电子卖场(京华云采)",
+      "url": "https://www.zhongcy.com",
+      "enabled": true
+    },
+    "ccgp_gx": {
+      "name": "广西政府采购网",
+      "url": "http://www.ccgp-guangxi.gov.cn/",
+      "enabled": true
+    },
+    "zycg_gov": {
+      "name": "中央政府采购网",
+      "url": "https://www.zycg.gov.cn/",
+      "enabled": true
+    },
+    "ggzy_shandong_qd": {
+      "name": "全国公共资源交易平台(山东青岛)",
+      "url": "https://ggzy.qingdao.gov.cn",
+      "enabled": true
+    },
+    "shenzhen_tech": {
+      "name": "深圳市技术转移促进中心业务系统",
+      "url": "http://szjssc.org.cn/fg/toFgIndexPage.do",
+      "enabled": true
+    },
+    "chengezhao": {
+      "name": "诚E招标书购买",
+      "url": "https://www.chengezhao.com/member/sysreg/register.htm?isAudit=1&no_sitemesh",
+      "enabled": true
+    },
+    "365trade": {
+      "name": "中招联合电子招标采购平台",
+      "url": "http://www.365trade.com.cn",
+      "enabled": true
+    },
+    "caie_xin": {
+      "name": "易招电子招投标采购交易平台(甘肃)",
+      "url": "http://www.caie.xin/login",
+      "enabled": true
+    },
+    "e_qyzc": {
+      "name": "黔云招采电子招标采购交易平台",
+      "url": "https://www.e-qyzc.com/#/home",
+      "enabled": true
+    },
+    "youezhao": {
+      "name": "邮E招平台",
+      "url": "https://www.youezhao.cn/",
+      "enabled": true
+    },
+    "shabidding": {
+      "name": "上海国际招标有限公司",
+      "url": "https://zb.shabidding.com/ebidding/#/ls/account?type=en",
+      "enabled": true
+    },
+    "gzebid": {
+      "name": "广咨电子招投标交易平台",
+      "url": "https://www.gzebid.cn/#/register",
+      "enabled": true
+    },
+    "gmeetc": {
+      "name": "广东省机电设备招标中心交易平台2.0",
+      "url": "http://gmeetc.gdebidding.com/ebidding/#/login",
+      "enabled": true
+    },
+    "ezhaobiao": {
+      "name": "国信电网智能招投标系统",
+      "url": "https://e-zhaobiao.com.cn/#/login",
+      "enabled": true
+    },
+    "easyjcx": {
+      "name": "竞采星",
+      "url": "https://login.easyjcx.com/#/su/register",
+      "enabled": true
+    },
+    "lecaiyun": {
+      "name": "乐采云平台",
+      "url": "https://www.lecaiyun.com/",
+      "enabled": true
+    },
+    "china_tender": {
+      "name": "中国通用招标网电子招标投标平台",
+      "url": "https://cgci.china-tender.com.cn/zjxm/",
+      "enabled": true
+    },
+    "wuhan_newarea": {
+      "name": "武汉长江新区政府采购电子交易系统",
+      "url": "http://47.111.115.168:9090/caizhaoyun/views/net/Login.html?loginType=02",
+      "enabled": true
+    },
+    "js_comm_build": {
+      "name": "江苏省通信建设交易平台",
+      "url": "http://47.96.125.164:8060/",
+      "enabled": true
+    },
+    "sgcc_ecp": {
+      "name": "国家电网电子商务平台-电工交易专区",
+      "url": "https://sgccetp.com.cn/portal/#/",
+      "enabled": true
+    },
+    "espic_ebid": {
+      "name": "国家电投电子商务平台",
+      "url": "https://ebid.espic.com.cn",
+      "enabled": true
+    },
+    "cnaf": {
+      "name": "中国航空油料集团",
+      "url": "https://zc.cnaf.com/",
+      "enabled": true
+    },
+    "minmetals": {
+      "name": "中国五矿集团供应链管理平台",
+      "url": "https://ec.minmetals.com.cn/logonAction.do",
+      "enabled": true
+    },
+    "alibaba_supplier": {
+      "name": "阿里巴巴集团供应商门户",
+      "url": "https://csupplier.alibabacorp.com/supplier/pub/index.htm",
+      "enabled": true
+    },
+    "alibaba_mozi": {
+      "name": "阿里巴巴厂商协同平台",
+      "url": "https://mozi-login.alibaba-inc.com/",
+      "enabled": true
+    },
+    "aliyun_partner": {
+      "name": "阿里云产品生态合作伙伴",
+      "url": "https://partner.aliyun.com/neibu/productecologicalpartner",
+      "enabled": true
+    },
+    "baidu_cloud": {
+      "name": "百度智能云",
+      "url": "https://cloud.baidu.com",
+      "enabled": true
+    },
+    "baidu_supplier": {
+      "name": "百度云供应商系统",
+      "url": "https://caigou.baidu.com/login.jsp",
+      "enabled": true
+    },
+    "jd_eco": {
+      "name": "京东科技生态合作平台",
+      "url": "https://shengtai.jd.com",
+      "enabled": true
+    },
+    "kuaishou_supplier": {
+      "name": "快手供应商后台",
+      "url": "https://supplier.corp.kuaishou.com/homePage",
+      "enabled": true
+    },
+    "netease_supplier": {
+      "name": "网易集团供应商系统",
+      "url": "https://ebooking.n.netease.com/#/login",
+      "enabled": true
+    },
+    "huawei_partner": {
+      "name": "华为企业合作伙伴",
+      "url": "https://partner.huawei.com/#/cn/web/china",
+      "enabled": true
+    },
+    "zte_bid": {
+      "name": "中兴通讯招标系统",
+      "url": "https://bid.zte.com.cn/ebid/com/zte/product/ui/web/Application/default.aspx",
+      "enabled": true
+    },
+    "zte_supply": {
+      "name": "SCC中兴供应链协同",
+      "url": "https://supply.zte.com.cn",
+      "enabled": true
+    },
+    "inspur_scs": {
+      "name": "浪潮电子采购平台",
+      "url": "https://scs.inspur.com/homepage",
+      "enabled": true
+    },
+    "inspur_cloud": {
+      "name": "浪潮云数据中心合作伙伴",
+      "url": "https://hub.ieisystem.com:8050/vendorlogin",
+      "enabled": true
+    },
+    "fiberhome_srm": {
+      "name": "烽火超微SRM系统",
+      "url": "https://srm.fiberhome.com/",
+      "enabled": true
+    },
+    "changhong_supplier": {
+      "name": "长虹佳华企业账户",
+      "url": "http://webapps.changhongit.cn:8202/supplier/home/#/login",
+      "enabled": true
+    },
+    "dcits_partner": {
+      "name": "神州信息供应商门户",
+      "url": "http://partner.dcits.com/portal/#/user/login",
+      "enabled": true
+    },
+    "wanmei": {
+      "name": "完美世界股份有限公司",
+      "url": "https://wanmei.going-link.com/app/public/home",
+      "enabled": true
+    },
+    "nezha_bid": {
+      "name": "哪吒公司网上招报价系统",
+      "url": "http://124.70.137.212:9090/nzbp/webui/inner/index_inner_2.0.jsp",
+      "enabled": true
+    },
+    "hxdi_bid": {
+      "name": "华信设计院电子招标平台",
+      "url": "https://hxzhaobiao.hxdi.cn/",
+      "enabled": true
+    },
+    "sjtu_supplier": {
+      "name": "上海交通大学供应商平台",
+      "url": "https://pboffice.sjtu.edu.cn/provider/#/",
+      "enabled": true
+    },
+    "gz_suanli": {
+      "name": "贵州算力商城平台",
+      "url": "https://www.gzsuanli.com/ticket",
+      "enabled": true
+    },
+    "nm_suanli": {
+      "name": "和林格尔集群多云算力资源监测与调度平台",
+      "url": "https://www.nmgsuanli.com/page/687924429644103680",
+      "enabled": true
+    },
+    "idinfo": {
+      "name": "联连平台(汇信CA)",
+      "url": "https://oauth.idinfo.cn/login.jsp",
+      "enabled": true
+    },
+    "yibanquan": {
+      "name": "电子版权认证联合服务平台",
+      "url": "https://www.yibanquan.com.cn/index.at",
+      "enabled": true
+    },
+    "smartcert": {
+      "name": "江苏智慧数字认证有限公司",
+      "url": "https://online.smartcert.cn/#/user/register",
+      "enabled": true
+    },
+    "csair_supplier": {
+      "name": "中国南方航空招标采购网",
+      "url": "https://supplier.csair.cn/bmv6_supplier/eip/logon/index_supplier.html",
+      "enabled": true
+    },
+    "shangyan_partner": {
+      "name": "上研院合作伙伴门户",
+      "url": "https://117.135.164.28:5111",
+      "enabled": true
+    }
+  },
+  "competitor_sources": {
+    "36kr": {
+      "name": "36氪",
+      "url": "https://36kr.com",
+      "enabled": true
+    },
+    "ithome": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com",
+      "enabled": true
+    },
+    "tmtpost": {
+      "name": "钛媒体",
+      "url": "https://www.tmtpost.com",
+      "enabled": true
+    },
+    "leiphone": {
+      "name": "雷锋网",
+      "url": "https://www.leiphone.com",
+      "enabled": true
+    },
+    "oschina": {
+      "name": "开源中国",
+      "url": "https://www.oschina.net",
+      "enabled": true
+    },
+    "infoq": {
+      "name": "InfoQ中文",
+      "url": "https://www.infoq.cn",
+      "enabled": true
+    },
+    "test_source": {
+      "name": "测试渠道",
+      "url": "https://www.ithome.com/rss/",
+      "enabled": true
+    },
+    "csdn": {
+      "name": "CSDN",
+      "url": "https://blog.csdn.net/rss/list",
+      "enabled": true
+    },
+    "site_3ec2e849": {
+      "name": "顺网科技",
+      "url": "https://www.shunwang.com",
+      "enabled": true
+    },
+    "site_a01e87e4": {
+      "name": "中国网协",
+      "url": "https://www.tennis.org.cn/",
+      "enabled": true
+    },
+    "b": {
+      "name": "B站",
+      "url": "https://www.bilibili.com/",
+      "enabled": true
+    },
+    "site_832f1d8a": {
+      "name": "欢鹿电竞",
+      "url": "https://baike.baidu.com/item/%E6%AC%A2/732308",
+      "enabled": true
+    },
+    "site_8d0d930f": {
+      "name": "腾讯游戏",
+      "url": "https://game.qq.com/web202406/",
+      "enabled": true
+    },
+    "site_e79e26e0": {
+      "name": "易乐游",
+      "url": "https://www.shengtian.com/Product/platform",
+      "enabled": true
+    },
+    "site_bcfd178d": {
+      "name": "云更新",
+      "url": "https://www.yungengxin.com/",
+      "enabled": true
+    },
+    "site_72045fac": {
+      "name": "英伟达",
+      "url": "https://www.nvidia.cn/",
+      "enabled": true
+    },
+    "site_35da3d25": {
+      "name": "英特尔",
+      "url": "https://www.intel.cn/content/www/cn/zh/homepage.html",
+      "enabled": true
+    },
+    "site_a2ee8493": {
+      "name": "沐曦",
+      "url": "https://www.metax-tech.com/",
+      "enabled": true
+    },
+    "site_9bc4eb57": {
+      "name": "励算",
+      "url": "https://baike.baidu.com/item/%E5%8A%B1/2640838",
+      "enabled": true
+    },
+    "site_ddfa45df": {
+      "name": "摩尔",
+      "url": "https://baike.baidu.com/item/%E6%91%A9%E5%B0%94/22424",
+      "enabled": true
+    },
+    "amd": {
+      "name": "AMD",
+      "url": "https://www.amd.com/zh-cn.html",
+      "enabled": true
+    },
+    "zol": {
+      "name": "中关村在线",
+      "url": "https://www.zol.com.cn",
+      "enabled": true
+    }
+  },
+  "hardware_sources": {
+    "zol": {
+      "name": "中关村在线",
+      "url": "https://diy.zol.com.cn",
+      "enabled": true
+    },
+    "pconline": {
+      "name": "太平洋电脑网",
+      "url": "https://diy.pconline.com.cn",
+      "enabled": true
+    },
+    "mydrivers": {
+      "name": "快科技",
+      "url": "https://www.mydrivers.com",
+      "enabled": true
+    },
+    "ithome_hw": {
+      "name": "IT之家硬件",
+      "url": "https://www.ithome.com",
+      "enabled": true
+    },
+    "csdn": {
+      "name": "CSDN",
+      "url": "https://blog.csdn.net/rss/list",
+      "enabled": true
+    },
+    "site_277a984f": {
+      "name": "抖音",
+      "url": "https://www.douyin.com/",
+      "enabled": true
+    },
+    "data_on_gpu_clusters___epoch_ai": {
+      "name": "Data on GPU clusters | Epoch AI",
+      "url": "https://epoch.ai/data/gpu-clusters",
+      "enabled": true
+    },
+    "gpu_______hyperai": {
+      "name": "GPU 排行榜 | HyperAI超神经",
+      "url": "https://hyper.ai/cn/gpu-leaderboard",
+      "enabled": true
+    },
+    "home______top500": {
+      "name": "Home -  | TOP500",
+      "url": "https://www.top500.org",
+      "enabled": true
+    },
+    "marketsandmarkets___revenue_impact___advisory_company___market_research_reports___business_research_insights": {
+      "name": "MarketsandMarkets - Revenue Impact & Advisory Comp",
+      "url": "https://www.marketsandmarkets.com",
+      "enabled": true
+    },
+    "it": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com",
+      "enabled": true
+    },
+    "gpu_database___techpowerup": {
+      "name": "GPU Database | TechPowerUp",
+      "url": "https://www.techpowerup.com/gpu-specs",
+      "enabled": true
+    },
+    "passmark_software___video_card__gpu__benchmark_charts": {
+      "name": "PassMark Software - Video Card (GPU) Benchmark Cha",
+      "url": "https://www.videocardbenchmark.net",
+      "enabled": true
+    },
+    "anandtech_forums__technology__hardware__software__and_deals": {
+      "name": "AnandTech Forums: Technology, Hardware, Software,",
+      "url": "https://www.anandtech.com",
+      "enabled": true
+    },
+    "tom_s_hardware__for_the_hardcore_pc_enthusiast": {
+      "name": "Tom's Hardware: For The Hardcore PC Enthusiast",
+      "url": "https://www.tomshardware.com",
+      "enabled": true
+    },
+    "shodan_search_engine": {
+      "name": "Shodan Search Engine",
+      "url": "https://www.shodan.io",
+      "enabled": true
+    }
+  }
+}

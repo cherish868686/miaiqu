@@ -1,0 +1,31 @@
+{
+  "currentProvider": "fusion",
+  "currentModel": "deepseek-chat",
+  "providers": {
+    "deepseek": {
+      "api_key": "sk-aoZwUU4nsE2LV6WJH1iyr97gjktRcjGVmeQX3oCVQVEua3y0",
+      "base_url": "http://69.5.17.203:7820/console/token"
+    },
+    "doubao": {
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3"
+    },
+    "ernie": {
+      "base_url": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop"
+    },
+    "fusion": {
+      "base_url": "http://69.5.17.203:7820/v1"
+    },
+    "kimi": {
+      "base_url": "https://api.moonshot.cn/v1"
+    },
+    "openai": {
+      "base_url": "https://api.openai.com/v1"
+    },
+    "qwen": {
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    },
+    "zhipu": {
+      "base_url": "https://open.bigmodel.cn/api/paas/v4"
+    }
+  }
+}
