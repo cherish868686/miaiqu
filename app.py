@@ -63,7 +63,7 @@ def index():
     """首页 - 新城小米虾主界面"""
     try:
         logger.info("访问首页")
-        return render_template('index.html')
+        return render_template('index_new.html')
     except Exception as e:
         logger.exception("首页渲染异常")
         return f"服务器错误: {str(e)}", 500
