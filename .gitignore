@@ -1,0 +1,40 @@
+# 忽略大文件
+build/
+dist/
+*.pkg
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据
+data/
+*.db
+*.sqlite
+
+# 日志
+*.log
+
+# 其他
+.DS_Store
+.env
