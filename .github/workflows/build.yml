@@ -25,11 +25,8 @@ jobs:
       run: |
         pyinstaller --onefile --add-data "templates;templates" --add-data "static;static" --name miaiqu app.py
     
-    - name: Upload to GitHub Releases
-      uses: softprops/action-gh-release@v1
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
       with:
-        files: dist/miaiqu.exe
-        tag_name: v${{ github.run_number }}
-        name: Release v${{ github.run_number }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: miaiqu-windows
+        path: dist/miaiqu.exe
